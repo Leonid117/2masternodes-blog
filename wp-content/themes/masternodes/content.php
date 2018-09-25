@@ -10,10 +10,29 @@
  */
 ?>
 <?php if (is_front_page()): ?>
-<article id="post-<?php the_ID(); ?>" class="main-page-post">
-    <div class="post-info">
+<article id="post-<?php the_ID(); ?>" class="main-page-post <?php if (has_post_thumbnail()){ echo 'post_with_img';} ?>">
+    <div class="post-info <?php if (has_post_thumbnail()){ echo 'post_has_img';} ?>">
         <div class="post-date">
-            <?php the_date(); ?>
+            <?php if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ) {
+                $time_string = '<time class="post-date entry-date published updated" datetime="%1$s">%2$s</time>';
+
+                if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+                    $time_string = '<time class="post-date entry-date published" datetime="%1$s">%2$s</time>';
+                }
+
+                $time_string = sprintf( $time_string,
+                    esc_attr( get_the_date( 'c' ) ),
+                    get_the_date(),
+                    esc_attr( get_the_modified_date( 'c' ) ),
+                    get_the_modified_date()
+                );
+
+                printf( '<a href="%2$s" rel="bookmark">%3$s</a>',
+                    _x( '', 'Used before publish date.', 'masternodes' ),
+                    esc_url( get_permalink() ),
+                    $time_string
+                );
+            }; ?>
         </div>
         <div class="post-name">
             <?php
@@ -25,20 +44,22 @@
             ?>
         </div>
         <div class="post-autor">
-            <?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?>
+            <?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
             <?php the_author_meta( 'display_name'); ?>
 
         </div>
     </div>
+    <?php if(has_post_thumbnail()):?>
     <div class="post-image">
         <?php
         // Post thumbnail.
         masternodes_post_thumbnail();
         ?>
     </div>
-
+<?php endif;?>
 
 </article><!-- #post-## -->
+
     <?php else:?>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <?php

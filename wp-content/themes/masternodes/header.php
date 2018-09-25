@@ -26,7 +26,8 @@
 
         <nav class="navbar navbar-expand-lg">
             <div class="logo">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="
+<?php echo get_site_url(); ?>">
                     <span class="text-blue">2</span><span class="text-orange">Master</span>Nodes<span class="text-gray-2">.com</span>
                 </a>
             </div>

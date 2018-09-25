@@ -37,9 +37,9 @@ get_header(); ?>
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'masternodes' ),
-				'next_text'          => __( 'Next page', 'masternodes' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'masternodes' ) . ' </span>',
+				'prev_text'          => __( '<<', 'masternodes' ),
+				'next_text'          => __( '>>', 'masternodes' ),
+				'before_page_number' => '<span class="meta-nav ">' . __( '', 'masternodes' ) . ' </span>',
 			) );
 
 		// If no content, include the "No posts found" template.
@@ -48,7 +48,7 @@ get_header(); ?>
 
 		endif;
 		?>
-
+            <button class="show_more_button main-btn">older post</button>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

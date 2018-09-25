@@ -176,3 +176,23 @@
 	} );
 
 } )( jQuery );
+//slice cats
+
+jQuery( document ).ready(function() {
+    var showNum = 8;
+    jQuery('.main-page-post').slice(showNum, 99).addClass('hide');
+
+    jQuery('.show_more_button').click(function () {
+        jQuery('.main-page-post.hide').slice(0, showNum).removeClass('hide');
+        if (jQuery('.main-page-post.hide').length < 1) {
+            jQuery(this).hide();
+        }
+    });
+    if (jQuery('.main-page-post.hide').length < 1) {
+        jQuery('.show_more_button').hide();
+    }
+    if (jQuery('.main-page-post.hide').length >= 1) {
+        jQuery(".show_more_button").removeClass("hide");
+    }
+	jQuery('.main-navigation ul').addClass('navbar-nav ml-auto align-items-lg-center');
+});

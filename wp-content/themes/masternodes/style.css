@@ -6216,3 +6216,17 @@
 		font-size: 14px;
 	}
 }
+.container{
+	overflow: hidden;
+}
+.post-header{
+	width: 100%;
+	display: inline-block;
+	height: 183px;
+	text-align: center;
+	background: linear-gradient(transparent 35%, #532a2a);
+
+}
+.post-header .entry-title{
+	text-transform: uppercase;
+}

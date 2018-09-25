@@ -65,6 +65,6 @@
 </header>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site container">
+<div id="page" class="hfeed site <?php if( !is_single( $post ) ){echo 'container';} ?>">
 
 	<div id="content" class="site-content">

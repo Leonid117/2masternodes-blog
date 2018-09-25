@@ -67,7 +67,7 @@
         masternodes_post_thumbnail();
         ?>
 
-        <header class="entry-header">
+        <header class="entry-header <?php if( is_single( $post ) ){echo 'post-header';} ?>">
             <?php
             if ( is_single() ) :
                 the_title( '<h1 class="entry-title">', '</h1>' );
@@ -78,7 +78,37 @@
         </header><!-- .entry-header -->
 
 
+
         <div class="entry-content">
+            <?php if ( is_single()) :?>
+                <div class="post-autor">
+                    <?php echo get_avatar( get_the_author_meta( 'ID' )); ?>
+                    <?php the_author_meta( 'display_name'); ?>
+
+                </div>
+                <div class="post-date">
+                    <?php if ( in_array( get_post_type(), array( 'post', 'attachment' ) ) ) {
+                        $time_string = '<time class="post-date entry-date published updated" datetime="%1$s">%2$s</time>';
+
+                        if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
+                            $time_string = '<time class="post-date entry-date published" datetime="%1$s">%2$s</time>';
+                        }
+
+                        $time_string = sprintf( $time_string,
+                            esc_attr( get_the_date( 'c' ) ),
+                            get_the_date(),
+                            esc_attr( get_the_modified_date( 'c' ) ),
+                            get_the_modified_date()
+                        );
+
+                        printf( '<a href="%2$s" rel="bookmark">%3$s</a>',
+                            _x( '', 'Used before publish date.', 'masternodes' ),
+                            esc_url( get_permalink() ),
+                            $time_string
+                        );
+                    }; ?>
+                </div>
+            <?php endif;?>
             <?php
             /* translators: %s: Name of current post */
             the_content( sprintf(
@@ -103,11 +133,13 @@
             get_template_part( 'author-bio' );
         endif;
         ?>
-
+        <?php if ( !is_single() ) :?>
         <footer class="entry-footer">
             <?php masternodes_entry_meta(); ?>
             <?php edit_post_link( __( 'Edit', 'masternodes' ), '<span class="edit-link">', '</span>' ); ?>
         </footer><!-- .entry-footer -->
+        <?php endif; ?>
+
 
     </article><!-- #post-## -->
 <?php endif; ?>

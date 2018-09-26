@@ -31,7 +31,33 @@
  * @since  Theme 1.0
  */
 
+add_action( 'after_setup_theme', 'wpse_74735_replace_wp_caption_shortcode' );
 
+/**
+ * Replace the default caption shortcode handler.
+ *
+ * @return void
+ */
+function wpse_74735_replace_wp_caption_shortcode() {
+    remove_shortcode( 'caption', 'img_caption_shortcode' );
+    remove_shortcode( 'wp_caption', 'img_caption_shortcode' );
+    add_shortcode( 'caption', 'wpse_74735_caption_shortcode' );
+    add_shortcode( 'wp_caption', 'wpse_74735_caption_shortcode' );
+}
+
+/**
+ * Add the new class to the caption.
+ *
+ * @param  array  $attr    Shortcode attributes
+ * @param  string $content Caption text
+ * @return string
+ */
+function wpse_74735_caption_shortcode( $attr, $content = NULL )
+{
+    $caption = img_caption_shortcode( $attr, $content );
+    $caption = str_replace( 'class="wp-caption-text', 'class="wp-caption-text text-secondary', $caption );
+    return $caption;
+}
 
 function your_theme_enqueue_scripts() {
     // all styles

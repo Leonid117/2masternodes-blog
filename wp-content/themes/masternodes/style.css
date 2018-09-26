@@ -6222,11 +6222,101 @@
 .post-header{
 	width: 100%;
 	display: inline-block;
-	height: 183px;
 	text-align: center;
 	background: linear-gradient(transparent 35%, #532a2a);
+    padding: 0 0 50px 0;
 
 }
 .post-header .entry-title{
 	text-transform: uppercase;
+}
+.post-autor-info .post-date, .post-autor-info .post-autor-mane{
+    display: inline-block;
+    padding: 0;
+}
+.autor-block{
+    width: 100%;
+    text-align: center;
+    margin-top: -25px;
+	margin-bottom: 35px;
+}
+.autor-block .post-autor{
+    padding-bottom: 12px;
+}
+.entry-header .p-show{
+    display: none;
+}
+.entry-header.post-header .p-show{
+    display: block;
+}
+.entry-header.post-header .entry-title{
+    display: inline-block;
+    max-width: 40%;
+    margin: 0 auto;
+    padding-bottom: 23px;
+}
+.entry-header.post-header  .p-show.text-secondary{
+    position: absolute;
+    left: 20%;
+    margin: 15px 0 0 0;
+}
+.entry-header.post-header .p-show.secondary-btn{
+    margin: 0 auto;
+    background: transparent;
+    width: 100px;
+    font-size: 12px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+}
+.autor-block .post-autor img{
+    margin: 0;
+}
+.text-secondary a{
+    color: #6c757d;
+}
+.type-post p{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.entry-content-post{
+	overflow: inherit;
+	width: 43%;
+}
+.wp-caption{
+	max-width: 100%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.wp-caption-text{
+	font-style: italic;
+	font-size: 14px;
+	padding: 5px 0;
+}
+h1 {
+	font-size: 28px;
+	font-weight: 300;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+}
+blockquote{
+	width: 100vw;
+	left: 50%;
+	float: left;
+	display: inline-block;
+	background: red;
+	position: relative;
+	transform: translate(-50%, 0%);
+}
+blockquote p{
+	width: 40%;
+	margin: 0 auto;
+}
+.single-post{
+	overflow-x: hidden;
 }

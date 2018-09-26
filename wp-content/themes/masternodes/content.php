@@ -10,7 +10,7 @@
  */
 ?>
 <?php if (is_front_page()): ?>
-    <article id="post-<?php the_ID(); ?>" class="main-page-post <?php if (has_post_thumbnail()) {
+    <article onclick="window.location = '<?php echo (get_permalink()); ?>'" id="post-<?php the_ID(); ?>" class="main-page-post <?php if (has_post_thumbnail()) {
         echo 'post_with_img';
     } ?>">
         <div class="post-info <?php if (has_post_thumbnail()) {
@@ -63,7 +63,6 @@
         <?php endif; ?>
 
     </article><!-- #post-## -->
-
 <?php else: ?>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <?php

@@ -17,7 +17,10 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+        <?php if (is_front_page()): ?>
+            <h1 class="blog-title">blog</h1>
+        <?php endif;?>
+        <main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 

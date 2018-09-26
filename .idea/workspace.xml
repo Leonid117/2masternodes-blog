@@ -4,7 +4,7 @@
     <list default="true" id="cb01cadd-c22d-4821-951f-4d56203b5c2a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +19,21 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="89" column="27" lean-forward="false" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#6#174#0#PHP" expanded="true" />
-                <element signature="e#279#342#0#PHP" expanded="false" />
-                <element signature="n#article#0;n#!!top" expanded="false" />
-                <element signature="e#384#454#0#PHP" expanded="false" />
-                <element signature="n#div#0;n#article#0;n#!!top" expanded="false" />
+                <element signature="e#447#517#0#PHP" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-                <element signature="e#2087#2315#0#PHP" expanded="false" />
+                <element signature="e#2150#2378#0#PHP" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
+                <marker date="1537997911861" expanded="true" signature="557:616" ph="..." />
+                <marker date="1537997911861" expanded="true" signature="1591:1679" ph="..." />
+                <marker date="1537997911861" expanded="true" signature="1972:2031" ph="..." />
+                <marker date="1537997911861" expanded="true" signature="2215:2356" ph="..." />
               </folding>
             </state>
           </provider>
@@ -51,8 +52,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="6320" column="23" lean-forward="false" selection-start-line="6320" selection-start-column="23" selection-end-line="6320" selection-end-column="23" />
+            <state relative-caret-position="189">
+              <caret line="6073" column="10212" lean-forward="false" selection-start-line="6073" selection-start-column="10212" selection-end-line="6073" selection-end-column="10212" />
               <folding />
             </state>
           </provider>
@@ -91,8 +92,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -109,9 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transiti</find>
-      <find>show_more_button</find>
-      <find>entry-date</find>
       <find>blog</find>
       <find>#help</find>
       <find>icon-search</find>
@@ -138,7 +136,10 @@
       <find>sing</find>
       <find>wp-caption-text</find>
       <find>single</find>
+      <find>blog-title</find>
       <find>text-secondary</find>
+      <find>main-page-post</find>
+      <find>#main-header .container</find>
     </findStrings>
     <replaceStrings>
       <replace>masternodes</replace>
@@ -171,15 +172,15 @@
         <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/archive.php" />
         <option value="$PROJECT_DIR$/wp-includes/class-wp-theme.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/footer.php" />
         <option value="$PROJECT_DIR$/wp-includes/nav-menu-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/inc/template-tags.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content-link.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
       </list>
     </option>
@@ -306,12 +307,12 @@
       <updated>1537809344387</updated>
       <workItem from="1537809345974" duration="18193000" />
       <workItem from="1537894753511" duration="20410000" />
-      <workItem from="1537989440540" duration="6889000" />
+      <workItem from="1537989440540" duration="8597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45492000" />
+    <option name="totallyTimeSpent" value="47200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="409" width="1382" height="784" extended-state="6" />
@@ -421,16 +422,17 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#6#174#0#PHP" expanded="true" />
-            <element signature="e#279#342#0#PHP" expanded="false" />
-            <element signature="n#article#0;n#!!top" expanded="false" />
-            <element signature="e#384#454#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#!!top" expanded="false" />
+            <element signature="e#447#517#0#PHP" expanded="false" />
             <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="e#2087#2315#0#PHP" expanded="false" />
+            <element signature="e#2150#2378#0#PHP" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
+            <marker date="1537997911861" expanded="true" signature="557:616" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="1591:1679" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="1972:2031" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="2215:2356" ph="..." />
           </folding>
         </state>
       </provider>
@@ -508,6 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-362">
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -588,6 +591,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="243" column="67" lean-forward="true" selection-start-line="243" selection-start-column="67" selection-end-line="243" selection-end-column="67" />
+          <folding>
+            <marker date="1537819105571" expanded="true" signature="3413:3420" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-link.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -712,26 +710,6 @@
         <state relative-caret-position="411">
           <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="89" column="27" lean-forward="false" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#174#0#PHP" expanded="true" />
-            <element signature="e#279#342#0#PHP" expanded="false" />
-            <element signature="n#article#0;n#!!top" expanded="false" />
-            <element signature="e#384#454#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
-            <element signature="e#2087#2315#0#PHP" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,10 +757,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#174#0#PHP" expanded="true" />
+            <element signature="e#447#517#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#article#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#article#0;n#!!top" expanded="false" />
+            <element signature="e#2150#2378#0#PHP" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#article#1;n#!!top" expanded="false" />
+            <marker date="1537997911861" expanded="true" signature="557:616" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="1591:1679" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="1972:2031" ph="..." />
+            <marker date="1537997911861" expanded="true" signature="2215:2356" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="6320" column="23" lean-forward="false" selection-start-line="6320" selection-start-column="23" selection-end-line="6320" selection-end-column="23" />
+        <state relative-caret-position="189">
+          <caret line="6073" column="10212" lean-forward="false" selection-start-line="6073" selection-start-column="10212" selection-end-line="6073" selection-end-column="10212" />
           <folding />
         </state>
       </provider>

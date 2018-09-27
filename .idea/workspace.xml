@@ -2,13 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb01cadd-c22d-4821-951f-4d56203b5c2a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/img/Chrysanthemum.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/admin_notices.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/analytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/compatibility.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/edit_related_posts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/init.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/lib/mobile_detect.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/lib/stemmer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/lib/unigrams.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/aliasing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/all_calls.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/consumers/ObConsumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/curl_consumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/custom_consumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/error_handling.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/profile_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/profile_simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/socket_consumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/track_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/examples/track_simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/Base/MixpanelBase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/ConsumerStrategies/AbstractConsumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/ConsumerStrategies/CurlConsumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/ConsumerStrategies/FileConsumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/ConsumerStrategies/SocketConsumer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/Mixpanel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/Producers/MixpanelBaseProducer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/Producers/MixpanelEvents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/lib/Producers/MixpanelPeople.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/Base/MixpanelBaseProducerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/ConsumerStrategies/AbstractConsumerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/ConsumerStrategies/CurlConsumerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/ConsumerStrategies/FileConsumerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/ConsumerStrategies/SocketConsumerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/MixpanelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/Producers/MixpanelEventsProducerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/mixpanel/test/Producers/MixpanelPeopleProducerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/recommendations.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/css/connect.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/cross_2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/desktop_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/down.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/icon_support.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/measure_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/measure_icon_2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/menu_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/menu_icon_2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/mobile_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/network_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/outlink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/promoted_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/m-modern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/m-plain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/m-stream.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/modern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/momma.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/pinterest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/plain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/twocolumns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/vertical-m.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/vertical-s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/themes/vertical.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/turnonscreen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/up.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/img/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/edit_related_posts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/extras.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/infiniterecs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/pinterest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/js/themes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/edit_related_posts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/m-modern.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/m-plain.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/m-stream.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/modern.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/momma.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/pinterest.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/plain.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/recommendations.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/twocolumns.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/vertical-m.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/vertical-s.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/themes/vertical.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/thumbnailer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/uploader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/versions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/views/admin_head.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/views/connect_notice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/views/global_notice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/views/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/widget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/wp_related_posts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/wpml-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/img/menu_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/assets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/message.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/options-input-apikey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/options-input-checkbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/options-input-text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/views/stylesheet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/zemanta/zemanta.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/single.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +174,15 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="135" column="42" lean-forward="true" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#6#174#0#PHP" expanded="true" />
-                <element signature="e#497#567#0#PHP" expanded="false" />
-                <element signature="e#2200#2428#0#PHP" expanded="false" />
+                <element signature="n#article#0;n#!!top" expanded="false" />
+                <element signature="e#527#597#0#PHP" expanded="false" />
+                <element signature="e#2230#2458#0#PHP" expanded="false" />
+                <element signature="n#article#1;n#!!top" expanded="false" />
+                <element signature="e#3517#5291#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -38,69 +192,41 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+              <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/single.php">
+      <file leaf-file-name="content-search.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
-                <element signature="e#6#138#0#PHP" expanded="true" />
+                <element signature="n#article#0;n#!!top" expanded="false" />
+                <element signature="e#508#570#0#PHP" expanded="false" />
+                <element signature="e#2067#2267#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="6392" column="13" lean-forward="false" selection-start-line="6392" selection-start-column="13" selection-end-line="6392" selection-end-column="13" />
+            <state relative-caret-position="-5722">
+              <caret line="6443" column="22" lean-forward="false" selection-start-line="6443" selection-start-column="22" selection-end-line="6443" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/comments.php">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-link.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-link.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="267">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,36 +243,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>container</find>
-      <find>site</find>
-      <find>article</find>
-      <find>entry-content</find>
-      <find>wp-caption-text</find>
-      <find>single</find>
-      <find>blog-title</find>
-      <find>text-secondary</find>
-      <find>#main-header .container</find>
-      <find>.list-styled</find>
-      <find>show_more_button</find>
-      <find>hfeed site</find>
-      <find>sing</find>
-      <find>show_more_button main-btn</find>
-      <find>blog</find>
-      <find>main-page-post</find>
-      <find>.entry-content-post</find>
-      <find>entry-content  col-sm-5 entry-content-post container</find>
       <find>col-sm-5</find>
       <find>.text-secondary</find>
       <find>.wp-caption-text</find>
-      <find>post-navigation</find>
       <find>navigation</find>
-      <find>comments</find>
       <find>.table{</find>
       <find>comments-area</find>
       <find>.table</find>
       <find>label</find>
       <find>input</find>
+      <find>wp_rp_title</find>
       <find>.main-btn</find>
+      <find>container comments-area</find>
+      <find>type-post</find>
+      <find>article</find>
+      <find>More from my site</find>
+      <find>related_post_title</find>
+      <find>wp_rp_publish_date</find>
+      <find>name</find>
+      <find>post-autor post-autor-mane</find>
+      <find>comments</find>
+      <find>post-navigation</find>
+      <find>date</find>
+      <find>related_post wp_rp</find>
+      <find>.main-btn, button, html [type=&quot;button&quot;], [type=&quot;reset&quot;], [type=&quot;submit&quot;]</find>
+      <find>768</find>
+      <find>.entry-header.post-header .p-show.text-secondary</find>
+      <find>767</find>
+      <find>.comment-form-comment textarea</find>
+      <find>$post</find>
+      <find>post-autor</find>
     </findStrings>
     <replaceStrings>
       <replace>masternodes</replace>
@@ -158,8 +284,10 @@
       <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-admin</dir>
       <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-includes</dir>
       <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes</dir>
-      <dir>D:\OSPanel\domains\2masternodes-blog.loc</dir>
+      <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-content\plugins</dir>
+      <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-content</dir>
       <dir>D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes</dir>
+      <dir>D:\OSPanel\domains\2masternodes-blog.loc</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +304,6 @@
         <option value="$PROJECT_DIR$/wp-admin/includes/update.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/fonts/roboto.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/css/roboto.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content-page.php" />
         <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/archive.php" />
         <option value="$PROJECT_DIR$/wp-includes/class-wp-theme.php" />
@@ -188,11 +315,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/comments.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/init.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php" />
       </list>
     </option>
   </component>
@@ -254,7 +385,15 @@
               <item name="2masternodes-blog.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="twentyfifteen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="masternodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="2masternodes-blog.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2masternodes-blog.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="masternodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -271,16 +410,16 @@
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;nav-&#9;FILE&#9;file://D:/OSPanel/domains/2masternodes-blog.loc/wp-includes/nav-menu-template.php&#10;wp-includes/nav-menu-template.php&#9;FILE&#9;file://D:/OSPanel/domains/2masternodes-blog.loc/wp-includes/nav-menu-template.php&#10;class-wp-th&#9;FILE&#9;file://D:/OSPanel/domains/2masternodes-blog.loc/wp-includes/class-wp-theme.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\img" />
+      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\img" />
       <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\fonts" />
       <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\js" />
       <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\css" />
       <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes" />
-      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\img" />
-      <recent name="D:\OSPanel\domains\2masternodes-blog.loc\wp-content\themes\masternodes\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,16 +450,15 @@
       <workItem from="1537809345974" duration="18193000" />
       <workItem from="1537894753511" duration="20410000" />
       <workItem from="1537989440540" duration="14045000" />
-      <workItem from="1538063978953" duration="5682000" />
+      <workItem from="1538063978953" duration="21963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58330000" />
+    <option name="totallyTimeSpent" value="74611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="409" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -330,7 +468,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -349,51 +487,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="44" column="21" lean-forward="true" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="67" column="60" lean-forward="false" selection-start-line="67" selection-start-column="60" selection-end-line="67" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/inc/template-tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
-          <folding>
-            <marker date="1537916211160" expanded="true" signature="4022:4029" ph="×" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -408,8 +506,11 @@
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#6#174#0#PHP" expanded="true" />
-            <element signature="e#497#567#0#PHP" expanded="false" />
-            <element signature="e#2200#2428#0#PHP" expanded="false" />
+            <element signature="n#article#0;n#!!top" expanded="false" />
+            <element signature="e#527#597#0#PHP" expanded="false" />
+            <element signature="e#2230#2458#0#PHP" expanded="false" />
+            <element signature="n#article#1;n#!!top" expanded="false" />
+            <element signature="e#3517#5291#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -449,6 +550,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -567,18 +669,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="243" column="67" lean-forward="true" selection-start-line="243" selection-start-column="67" selection-end-line="243" selection-end-column="67" />
+          <folding>
+            <marker date="1537819105571" expanded="true" signature="3413:3420" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/css/roboto.css" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -613,6 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3758">
           <caret line="482" column="0" lean-forward="true" selection-start-line="482" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -620,13 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="185" column="77" lean-forward="true" selection-start-line="185" selection-start-column="77" selection-end-line="185" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -688,33 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="135" column="42" lean-forward="true" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
-          <folding>
-            <element signature="e#6#174#0#PHP" expanded="true" />
-            <element signature="e#497#567#0#PHP" expanded="false" />
-            <element signature="e#2200#2428#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -727,32 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#6#138#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="66" lean-forward="true" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3315">
@@ -761,11 +799,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#138#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="223" column="47" lean-forward="false" selection-start-line="223" selection-start-column="47" selection-end-line="223" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wordpress-23-related-posts-plugin/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="348" column="66" lean-forward="false" selection-start-line="348" selection-start-column="44" selection-end-line="348" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/img/header-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="6392" column="13" lean-forward="false" selection-start-line="6392" selection-start-column="13" selection-end-line="6392" selection-end-column="13" />
+        <state relative-caret-position="-5722">
+          <caret line="6443" column="22" lean-forward="false" selection-start-line="6443" selection-start-column="22" selection-end-line="6443" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#174#0#PHP" expanded="true" />
+            <element signature="n#article#0;n#!!top" expanded="false" />
+            <element signature="e#527#597#0#PHP" expanded="false" />
+            <element signature="e#2230#2458#0#PHP" expanded="false" />
+            <element signature="n#article#1;n#!!top" expanded="false" />
+            <element signature="e#3517#5291#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="n#article#0;n#!!top" expanded="false" />
+            <element signature="e#508#570#0#PHP" expanded="false" />
+            <element signature="e#2067#2267#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -10,9 +10,10 @@
  */
 ?>
 <?php if (!is_single($post)): ?>
-    <article onclick="window.location = '<?php echo (get_permalink()); ?>'" id="post-<?php the_ID(); ?>" class="col-xs-12; col-sm-12;col-md-9 col-lg-8 col-xl-8 main-page-post <?php if (has_post_thumbnail()) {
-        echo 'post_with_img';
-    } ?>">
+    <article onclick="window.location = '<?php echo(get_permalink()); ?>'" id="post-<?php the_ID(); ?>"
+             class="col-xs-12; col-sm-12;col-md-9 col-lg-8 col-xl-8 main-page-post <?php if (has_post_thumbnail()) {
+                 echo 'post_with_img';
+             } ?>">
         <div class="post-info <?php if (has_post_thumbnail()) {
             echo 'post_has_img';
         } ?>">
@@ -155,4 +156,68 @@
 
 
     </article><!-- #post-## -->
+
+    <div class="related-posts container">
+        <h2>Related posts:</h2>
+        <div class="relatedposts">
+            <div class="row">
+
+                <?php
+                $orig_post = $post;
+                global $post;
+                $tags = wp_get_post_tags($post->ID);
+
+                if ($tags) {
+                    $tag_ids = array();
+                    foreach ($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
+                    $args = array(
+                        'tag__in' => $tag_ids,
+                        'post__not_in' => array($post->ID),
+                        'posts_per_page' => 3, // Number of related posts to display.
+                        'caller_get_posts' => 1
+                    );
+
+                    $my_query = new wp_query($args);
+
+                    while ($my_query->have_posts()) {
+                        $my_query->the_post();
+                        ?>
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="relatedthumb">
+                                <a rel="external" href="<? the_permalink() ?>">
+                                    <div class="img-related-post">
+                                        <?php if (has_post_thumbnail()): ?>
+                                            <?php the_post_thumbnail(); ?>
+
+                                        <?php else : ?>
+                                            <img src="/wp-content/themes/masternodes/img/Chrysanthemum.png" alt="">
+                                        <?php endif; ?>
+                                    </div>
+                                    <div class="related_post_bottom">
+                                        <div class="post-autor-info">
+                                            <div class="post-date">
+                                <span class="post-date entry-date published">
+                                    <?php $post_date = get_the_date('F j, Y');
+                                    echo $post_date; ?> by
+                                </span>
+                                            </div>
+                                            <div class="post-autor post-autor-mane">
+                                                <?php the_author_meta('display_name') ?>
+                                            </div>
+                                        </div>
+                                        <h3><?php the_title(); ?></h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    <? }
+                }
+                $post = $orig_post;
+                wp_reset_query();
+                ?>
+            </div>
+        </div>
+    </div>
+
+
 <?php endif; ?>

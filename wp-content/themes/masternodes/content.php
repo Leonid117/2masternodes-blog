@@ -9,8 +9,8 @@
  * @since  Theme 1.0
  */
 ?>
-<?php if (is_front_page()): ?>
-    <article onclick="window.location = '<?php echo (get_permalink()); ?>'" id="post-<?php the_ID(); ?>" class="main-page-post <?php if (has_post_thumbnail()) {
+<?php if (!is_single($post)): ?>
+    <article onclick="window.location = '<?php echo (get_permalink()); ?>'" id="post-<?php the_ID(); ?>" class="col-xs-12; col-sm-12;col-md-9 col-lg-8 col-xl-8 main-page-post <?php if (has_post_thumbnail()) {
         echo 'post_with_img';
     } ?>">
         <div class="post-info <?php if (has_post_thumbnail()) {
@@ -86,7 +86,7 @@
 
 
         <div class="entry-content  <?php if (is_single($post)) {
-            echo 'col-sm-5 entry-content-post container';
+            echo 'col-xs-12 col-sm-10 col-md-8 col-lg-5 col-xl-5 entry-content-post container';
         } ?>">
             <?php if (is_single()) : ?>
                 <div class="autor-block">

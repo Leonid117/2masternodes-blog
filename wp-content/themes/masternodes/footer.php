@@ -9,6 +9,9 @@
  * @since  Theme 1.0
  */
 ?>
+<?php if (!is_single($post)):?>
+    <button class="show_more_button main-btn">older post</button>
+<?php endif?>
 
 </div><!-- .site-content -->
 

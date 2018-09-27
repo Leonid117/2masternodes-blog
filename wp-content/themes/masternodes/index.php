@@ -51,7 +51,6 @@ get_header(); ?>
 
 		endif;
 		?>
-            <button class="show_more_button main-btn">older post</button>
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 

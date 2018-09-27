@@ -38,6 +38,7 @@ add_action( 'after_setup_theme', 'wpse_74735_replace_wp_caption_shortcode' );
  *
  * @return void
  */
+
 function wpse_74735_replace_wp_caption_shortcode() {
     remove_shortcode( 'caption', 'img_caption_shortcode' );
     remove_shortcode( 'wp_caption', 'img_caption_shortcode' );

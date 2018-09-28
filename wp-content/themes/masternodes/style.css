@@ -6252,7 +6252,7 @@
 }
 .entry-header.post-header .entry-title{
 	display: inline-block;
-	max-width: 33%;
+	max-width: 800px;
 	margin: 0 auto;
 	padding-bottom: 20px;
 	font-weight: 500;
@@ -6451,8 +6451,6 @@ textarea, input[type="text"], input[type="password"], input[type="email"],input[
 	body {
 		color: #fff;
 		font: 16px/25px Roboto,sans-serif;
-		width: 100%;
-		min-width: 1900px;
 	}
 }
 @media (min-width: 1200px) {
@@ -6541,4 +6539,13 @@ table,
 }
 .table-scroll-inner{
 	overflow: scroll;
+	
 }
+/* хром, сафари */
+.table-scroll-inner::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.table-scroll-inner { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.table-scroll-inner { overflow: -moz-scrollbars-none; }

@@ -184,7 +184,7 @@
                         ?>
                         <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                             <div class="relatedthumb">
-                                <a rel="external" href="<? the_permalink() ?>">
+                                <a rel="external" href="<?php the_permalink() ?>">
                                     <div class="img-related-post">
                                         <?php if (has_post_thumbnail()): ?>
                                             <?php the_post_thumbnail(); ?>
@@ -210,7 +210,7 @@
                                 </a>
                             </div>
                         </div>
-                    <? }
+                    <?php }
                 }
                 $post = $orig_post;
                 wp_reset_query();

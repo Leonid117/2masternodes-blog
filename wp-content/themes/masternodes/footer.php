@@ -31,7 +31,7 @@
                 <div class="description">
                     <div class="col-md-6 col-lg-12 p-0">
                         <div class="label silent">Telegram chat</div>
-                        <h3 class="mb-lg-4">@en_2masternodes</h3>
+                        <h3 class="mb-lg-4 label-2">@masternodes</h3>
                     </div>
                     <div class="col-md-6 col-lg-12 p-0">
                         <h4 class="silent">Community 24/7 Support: 1000+ masters are chitchatting</h4>
@@ -48,10 +48,10 @@
                 <div class="description">
                     <div class="col-md-6 col-lg-12 p-0">
                         <div class="label silent">Helpdesk</div>
-                        <h3 class="mb-lg-4">masternodes.zendesk.com</h3>
+                        <h3 class="mb-lg-4 label-2">masternodes.zendesk.com</h3>
                     </div>
                     <div class="col-md-6 col-lg-12 p-0">
-                        <h4 class="silent">An outstanding knowledge base for masternode owners</h4>
+                        <h4 class="silent">An outstanding knowledge base for miners</h4>
                     </div>
                 </div>
             </a>
@@ -87,8 +87,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="text-center text-md-left col-md-auto col-xl-4 footer-nav">
-                <ul class="list-unstyled">
+            <div class="text-center col-md-auto col-xl-4 footer-nav">
+                <ul class="list-unstyled footer-links">
                     <li class="d-inline">
                         <a href="#">Поддержка</a>
                     </li>

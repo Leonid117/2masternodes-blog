@@ -39,7 +39,7 @@
                         </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-lg-center">
+                <ul class="navbar-nav align-items-lg-center">
                     <li class="nav-item">
                         <form class="form-inline my-lg-0 search-form" method="get" name="searchform" id="searchform" action="<?php bloginfo('siteurl')?>">
                             <input placeholder="Wallet address" type="text" class="form-control mr-sm-2" name="s" id="s" value="<?php echo wp_specialchars($s, 1); ?>"/>
@@ -62,6 +62,9 @@
         </nav>
 
     </div><!-- contrainer -->
+
+
+
 </header>
 
 <body <?php body_class(); ?>>

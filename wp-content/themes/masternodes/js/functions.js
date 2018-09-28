@@ -195,4 +195,16 @@ jQuery( document ).ready(function() {
         jQuery(".show_more_button").removeClass("hide");
     }
 	jQuery('.main-navigation ul').addClass('navbar-nav ml-auto align-items-lg-center');
+
+
+    jQuery(window).on("load",function(){
+        jQuery(".table-scroll").mCustomScrollbar(
+            { alwaysShowScrollbar: 1,
+                axis:"x"
+            }
+
+
+
+		);
+    });
 });

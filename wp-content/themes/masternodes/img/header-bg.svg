@@ -1,0 +1,23 @@
+<svg width="632" height="339" viewBox="0 0 632 339" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 3">
+<circle id="Ellipse" cx="535.5" cy="100.5" r="5" fill="#51526B" fill-opacity="0.2" stroke="#383847"/>
+<path id="Vector" d="M309.5 84L371.5 120.672M391.026 118L451.009 47M463.125 45.5L528.05 94.5" stroke="#383847" stroke-width="2" stroke-linecap="round"/>
+<path id="Oval" opacity="0.2" fill-rule="evenodd" clip-rule="evenodd" d="M207.632 232.85C264.146 232.85 309.961 186.993 309.961 130.425C309.961 73.8572 264.146 28 207.632 28C151.117 28 105.303 73.8572 105.303 130.425C105.303 186.993 151.117 232.85 207.632 232.85Z" fill="url(#paint0_linear)"/>
+<path id="Oval Copy 4" opacity="0.3" d="M116.026 10.1392C96.0229 26.9394 81.4778 47.8343 72.5873 70.5715C53.144 120.297 60.7463 178.834 97.4535 222.621C150.945 286.43 245.987 294.753 309.736 241.211" stroke="#383847" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="290 20 430"/>
+<path id="Oval Copy 2" opacity="0.26438" fill-rule="evenodd" clip-rule="evenodd" d="M241.5 251C254.479 251 265 240.479 265 227.5C265 214.521 254.479 204 241.5 204C228.521 204 218 214.521 218 227.5C218 240.479 228.521 251 241.5 251Z" fill="#A2A2B8" fill-opacity="0.2"/>
+<path id="Oval Copy" d="M302 73C302 67.4772 297.523 63 292 63C286.477 63 282 67.4772 282 73C282 78.5228 286.477 83 292 83C297.523 83 302 78.5228 302 73Z" fill="#1E1E26" stroke="#383847" stroke-width="2"/>
+<circle id="Ellipse_2" cx="382.5" cy="127.5" r="7" fill="#252533" stroke="#383847"/>
+<circle id="Ellipse_3" cx="328.5" cy="22.5" r="4" fill="#51526B" stroke="#383847"/>
+<circle id="Ellipse_4" cx="456.5" cy="40.5" r="4" fill="#51526B" stroke="#383847"/>
+<circle id="Ellipse_5" cx="246.5" cy="35.5" r="11" fill="#51526B" fill-opacity="0.4" stroke="#383847"/>
+<circle id="Ellipse_6" cx="119.5" cy="76.5" r="27" fill="#51526B" fill-opacity="0.1" stroke="#383847"/>
+<path id="Vector 3" d="M152.5 75.5L276.5 74" stroke="#383847" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2" d="M302.5 61.5L323 31M186 -15L233.5 24.6488M576 24L592 40M620 56L631 44.5M263 33.1718L319.5 25.1994M286.5 88.5L251.5 196" stroke="#383847" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="203.493" y1="3.79602" x2="58.788" y2="193.869" gradientUnits="userSpaceOnUse">
+<stop offset="0.170136" stop-color="#383847"/>
+<stop offset="1" stop-color="#1E1E26"/>
+</linearGradient>
+</defs>
+</svg>

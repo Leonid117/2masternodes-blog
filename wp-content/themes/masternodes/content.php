@@ -162,10 +162,7 @@
 
     </article><!-- #post-## -->
 
-    <div class="related-posts container">
-        <h2>Related posts:</h2>
-        <div class="relatedposts">
-            <div class="row">
+
 
                 <?php
                 $orig_post = $post;
@@ -180,7 +177,12 @@
                         'post__not_in' => array($post->ID),
                         'posts_per_page' => 3, // Number of related posts to display.
                         'caller_get_posts' => 1
-                    );
+                    );?>
+                    <div class="related-posts container">
+                    <h2>Related posts:</h2>
+                    <div class="relatedposts">
+                    <div class="row">
+                    <?php
 
                     $my_query = new wp_query($args);
 
@@ -210,13 +212,15 @@
                             </div>
                         </div>
                     <?php }
-                }
+                }?>
+    </div>
+    </div>
+    </div>
+    <?php
                 $post = $orig_post;
                 wp_reset_query();
                 ?>
-            </div>
-        </div>
-    </div>
+
 
 
 <?php endif; ?>

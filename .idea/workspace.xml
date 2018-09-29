@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb01cadd-c22d-4821-951f-4d56203b5c2a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +17,10 @@
       <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+            <state relative-caret-position="241">
+              <caret line="218" column="9" lean-forward="false" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
               <folding>
                 <element signature="e#6#174#0#PHP" expanded="true" />
-                <marker date="1538178867835" expanded="true" signature="12924:12933" ph="..." />
-                <marker date="1538178867835" expanded="true" signature="12924:12934" ph="..." />
-                <marker date="1538178867835" expanded="true" signature="12924:12941" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,8 +62,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="6296" column="20" lean-forward="true" selection-start-line="6296" selection-start-column="20" selection-end-line="6296" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="6552" column="22" lean-forward="false" selection-start-line="6552" selection-start-column="22" selection-end-line="6552" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -102,8 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.main-btn, button, html [type=&quot;button&quot;], [type=&quot;reset&quot;], [type=&quot;submit&quot;]</find>
-      <find>768</find>
       <find>767</find>
       <find>.comment-form-comment textarea</find>
       <find>$post</find>
@@ -132,6 +128,8 @@
       <find>.related_post_bottom</find>
       <find>autor-block</find>
       <find>.entry-header.post-header .entry-title</find>
+      <find>.single-post .entry-content-post</find>
+      <find>relate</find>
     </findStrings>
     <replaceStrings>
       <replace>masternodes</replace>
@@ -179,9 +177,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content-search.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/js/functions.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/masternodes/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/masternodes/style.css" />
       </list>
     </option>
@@ -333,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93609000" />
+    <option name="totallyTimeSpent" value="93880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="409" width="1382" height="784" extended-state="6" />
@@ -731,19 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="212" column="16" lean-forward="false" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
-          <folding>
-            <element signature="e#6#174#0#PHP" expanded="true" />
-            <marker date="1538178867835" expanded="true" signature="12924:12933" ph="..." />
-            <marker date="1538178867835" expanded="true" signature="12924:12934" ph="..." />
-            <marker date="1538178867835" expanded="true" signature="12924:12941" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/js/jquery-2.1.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -767,10 +752,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="218" column="9" lean-forward="false" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#174#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="6296" column="20" lean-forward="true" selection-start-line="6296" selection-start-column="20" selection-end-line="6296" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="6552" column="22" lean-forward="false" selection-start-line="6552" selection-start-column="22" selection-end-line="6552" selection-end-column="22" />
           <folding />
         </state>
       </provider>

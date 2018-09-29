@@ -6549,3 +6549,6 @@ table,
 
 /* фф (свойство больше не работает, других способов тоже нет)*/
 .table-scroll-inner { overflow: -moz-scrollbars-none; }
+.entry-content-post{
+	min-height: 400px;
+}

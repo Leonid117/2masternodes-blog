@@ -6259,9 +6259,9 @@
 	font-size: 39px;
 }
 .entry-header.post-header  .p-show.text-secondary{
-    position: absolute;
-	left: 19.7%;
-	margin: 12px 0 0 0;
+	position: relative;
+	margin: 12px 0px -25px 0;
+	left: -527px;
 }
 .entry-header.post-header  .p-show.text-secondary {
 	color: #fff;
@@ -6434,10 +6434,6 @@ textarea, input[type="text"], input[type="password"], input[type="email"],input[
 .related-posts {
 	margin-bottom: 90px;
 }@media screen and (max-width: 767px) {
-	.entry-header.post-header .p-show.text-secondary{
-		left: 4%;
-	}
-
 		blockquote p{
 			width: 80%;
 		}
@@ -6510,6 +6506,9 @@ table,
 	}
 }
 @media screen and (max-width: 1200px) {
+	.entry-header.post-header  .p-show.text-secondary{
+		display: none;
+	}
 	.related_post_bottom h3{
 		font-size: 13px;
 		line-height: 17px;

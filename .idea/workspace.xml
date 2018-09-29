@@ -39,7 +39,7 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/js/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="3468">
               <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding />
             </state>
@@ -62,8 +62,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6548" column="4" lean-forward="true" selection-start-line="6548" selection-start-column="4" selection-end-line="6548" selection-end-column="4" />
+            <state relative-caret-position="140">
+              <caret line="6509" column="22" lean-forward="false" selection-start-line="6509" selection-start-column="22" selection-end-line="6509" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -100,7 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.img-related-post</find>
       <find>blockquote</find>
       <find>style</find>
       <find>img-related-post</find>
@@ -130,6 +129,7 @@
       <find>blockquote:</find>
       <find>768</find>
       <find>767</find>
+      <find>1200</find>
     </findStrings>
     <replaceStrings>
       <replace>masternodes</replace>
@@ -220,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,8 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,12 +327,13 @@
       <workItem from="1537989440540" duration="14045000" />
       <workItem from="1538063978953" duration="22637000" />
       <workItem from="1538153270538" duration="18065000" />
-      <workItem from="1538217360384" duration="1451000" />
+      <workItem from="1538217360384" duration="1687000" />
+      <workItem from="1538242976535" duration="726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96984000" />
+    <option name="totallyTimeSpent" value="97946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="409" width="1382" height="784" extended-state="6" />
@@ -718,18 +719,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/js/functions.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="6509" column="22" lean-forward="false" selection-start-line="6509" selection-start-column="22" selection-end-line="6509" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/style.css">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/masternodes/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="6548" column="4" lean-forward="true" selection-start-line="6548" selection-start-column="4" selection-end-line="6548" selection-end-column="4" />
+        <state relative-caret-position="3468">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -6323,9 +6323,10 @@ blockquote{
 	line-height: 29px;
 }
 blockquote p{
-	width: 30%;
 	margin: 0 auto;
 	color: #f8ff63;
+	max-width:570px;
+	overflow: visible !important;
 }
 .single-post{
 	overflow-x: hidden;
@@ -6336,15 +6337,21 @@ blockquote p{
 	font-weight: 500;
 	margin: 0 0 37px 20px;
 }
-blockquote:before {
+
+blockquote p:first-child:before{
 	content: "\201C";
-	font-size: 6vw;
-	line-height: 6vw;
+	font-size: 110px;
+	line-height: 0;
 	font-family: Roboto;
-	position: absolute;
-	left: 31%;
+	position: relative;
+	left: -90px;
 	color: #51526b;
-	top: 30px;
+	top: 60px;
+	z-index: 999999999999999;
+	height: 1px;
+	bottom: -30px;
+	width: 0;
+	display: inline-block;
 }
 blockquote cite{
 	color: white;
@@ -6431,9 +6438,6 @@ textarea, input[type="text"], input[type="password"], input[type="email"],input[
 		left: 4%;
 	}
 
-		blockquote:before{
-			left: 8%;
-		}
 		blockquote p{
 			width: 80%;
 		}
@@ -6535,6 +6539,9 @@ table,
 	.entry-header.post-header .entry-title{
 		font-size: 12px;
 		line-height: 15px;
+	}
+	blockquote p:before{
+		display: none !important;
 	}
 }
 .table-scroll-inner{
